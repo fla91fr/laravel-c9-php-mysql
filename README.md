@@ -20,3 +20,5 @@ wget -O laravel_c9_php_mysql.sh https://raw.githubusercontent.com/fla91fr/larave
 chmod +x laravel_c9_php_mysql.sh
 ./laravel_c9_php_mysql.sh 
 ```
+
+## Environment is now ready to be used, and Laravel is usable.
