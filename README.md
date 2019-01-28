@@ -1,13 +1,13 @@
 # Script used to upgrade environment of Cloud9 instances
 ## The following actions are made :
-- php 7.2.x (+ main modules)
-- mysql 5.7.x
-- laravel 5.7.x
-- composer (up to last version)
-- Add Authentication to Laravel
-- Execute Laravel Migration
-- Change .htaccess file to modify DocumentRoot (to ./public)
-- Download adminer.php
+- Installs php 7.2.x (+ main modules)
+- Installs mysql 5.7.x
+- Installs Laravel 5.7.x
+- Installs Composer (up to last version)
+- Adds Authentication to Laravel
+- Executes Laravel Migration
+- Changes .htaccess file to modify DocumentRoot (to ./public)
+- Downloads adminer.php
 
 ## To install all directly : 
 ```
