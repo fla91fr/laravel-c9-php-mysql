@@ -5,7 +5,7 @@ wget -O - https://raw.githubusercontent.com/fla91fr/laravel-installer/master/lar
 
 #Or be to sure of what includes the installation script : 
 ```
-wget -O - https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh
+wget -O laravel_c9_php_mysql.sh https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh
 chmod +x laravel_c9_php_mysql.sh
 ./laravel_c9_php_mysql.sh 
 ```
