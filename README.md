@@ -1,8 +1,5 @@
 # Script used to upgrade environment of Cloud9 instances
---> allows to install php 7.2.x
---> allows to install mysql 5.7.x
---> allows to install laravel 5.7.x
-
+--> allows to install php 7.2.x / mysql 5.7.x / laravel 5.7.x
 
 
 ## To install all directly : 
