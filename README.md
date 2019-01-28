@@ -9,12 +9,12 @@
 - Changes .htaccess file to modify DocumentRoot (to ./public)
 - Downloads adminer.php
 
-## To install all directly : 
+## To install everything in just one command line : 
 ```
 wget -O - https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh |bash
 ```
 
-## Or be to sure of what includes the installation script : 
+## Otherwise, for security reasons, you can download and then execute the installation script :
 ```
 wget -O laravel_c9_php_mysql.sh https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh
 chmod +x laravel_c9_php_mysql.sh
