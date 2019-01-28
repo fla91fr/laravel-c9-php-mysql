@@ -93,6 +93,17 @@ rm -rf laravel-resources-lang-ja
 rm hello-world.php
 rm ${mysql_apt_deb_file}
 
+echo "PHP version : "
+php -v |head -1
+
+echo
+echo "Mysql version : "
+mysql -V |head -1
+
 # End
+echo
 echo "done!"
+
+
+
 exit
