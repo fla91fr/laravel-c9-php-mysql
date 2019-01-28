@@ -45,8 +45,6 @@ sudo apt-get -y install php7.2-bcmath
 sudo apt-get -y install php7.2-soap
 sudo apt-get -y install php7.2-zip
 sudo apt-get -y install php7.2-sqlite
-
-# Use MySQL
 sudo apt-get -y install php7.2-mysql
 
 # Upgrade MySQL Version 5.7.x
@@ -62,8 +60,6 @@ sudo rm -rf $HOME/.composer
 sudo rm -f /usr/bin/composer
 sudo curl -sS https://getcomposer.org/installer | php
 sudo cp composer.phar /usr/bin/composer
-
-exit
 
 # Laravel 5.5 install
 composer create-project --prefer-dist laravel/laravel=5.7.* laravel
