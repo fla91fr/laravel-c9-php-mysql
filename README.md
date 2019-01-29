@@ -1,4 +1,4 @@
-# Script used to upgrade environment of Cloud9 instances
+# Script used to upgrade environment of Cloud9 instances or other linux based environments
 ## The following actions are made :
 - Installs php 7.2.x (+ main modules)
 - Installs mysql 5.7.x
