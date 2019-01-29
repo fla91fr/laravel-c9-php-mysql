@@ -12,7 +12,7 @@
 
 ## To install everything in just one command line : 
 ```
-~~ wget -O - https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh |bash ~~
+~~wget -O - https://raw.githubusercontent.com/fla91fr/laravel-installer/master/laravel_c9_php_mysql.sh |bash~~
 ```
 
 ## Otherwise, for security reasons, you can download and then execute the installation script :
