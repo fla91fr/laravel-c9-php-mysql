@@ -3,11 +3,12 @@
 - Installs php 7.2.x (+ main modules)
 - Installs mysql 5.7.x
 - Installs Laravel 5.7.x
-- Installs Composer (up to last version)
+- Installs Composer (up to latest version)
 - Adds Authentication to Laravel
+- Creates the default user homestead and default db homestead
 - Executes Laravel Migration
-- Changes .htaccess file to modify DocumentRoot (to ./public)
-- Downloads adminer.php
+- Changes .htaccess file to modify DocumentRoot of laravel project (to ./public)
+- Downloads adminer.php and put it in public directory (public/adminer.php --> should be deleted in production)
 
 ## To install everything in just one command line : 
 ```
