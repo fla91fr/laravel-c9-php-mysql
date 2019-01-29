@@ -21,3 +21,10 @@ chmod +x laravel_c9_php_mysql.sh
 ```
 
 ## Environment is now ready to be used, and Laravel is usable.
+
+## To upgrade only Php/Mysql : 
+```
+wget -O c9_php_mysql.sh  https://raw.githubusercontent.com/fla91fr/laravel-installer/master/c9_php_mysql.sh 
+chmod +x c9_php_mysql.sh 
+./c9_php_mysql.sh 
+```
