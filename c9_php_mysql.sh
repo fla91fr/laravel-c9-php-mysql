@@ -31,7 +31,6 @@ sudo a2dismod php5
 sudo a2enmod php7.2
 
 # Add Module for Laravel 5.7
-sudo apt-get -y install php7.2-openssl
 sudo apt-get -y install php7.2-pdo
 sudo apt-get -y install php7.2-mbstring
 sudo apt-get -y install php7.2-tokenizer
