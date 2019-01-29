@@ -19,6 +19,9 @@ echo mysql-apt-config mysql-apt-config/select-connector-odbc   select connector-
 export DEBIAN_FRONTEND=noninteractive
 sudo -E dpkg -i ${mysql_apt_deb_file}
 
+# Create User and Database
+mysql -u root -e "create user homestead;create database homestead;grant all on homestead.* to homestead@localhost identified by 'secret';"
+
 # Update
 sudo apt-get -y update
 
