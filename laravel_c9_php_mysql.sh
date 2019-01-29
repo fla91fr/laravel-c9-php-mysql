@@ -80,6 +80,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ public/$1 [L]
 EOF
 
+# Clean packages
+sudo apt-get autoremove
+
 # Add Adminer (Database management in a single PHP file) from https://www.adminer.org/
 wget -O ./public/adminer.php https://www.adminer.org/static/download/4.6.3/adminer-4.6.3.php
 
