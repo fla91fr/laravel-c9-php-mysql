@@ -67,10 +67,6 @@ echo
 echo "Mysql version : "
 mysql -V |head -1
 
-echo
-echo "Laravel version : "
-php artisan --version
-
 # End
 echo
 echo "done!"
