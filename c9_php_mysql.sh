@@ -45,6 +45,7 @@ sudo apt-get -y install php7.2-soap
 sudo apt-get -y install php7.2-zip
 sudo apt-get -y install php7.2-sqlite
 sudo apt-get -y install php7.2-mysql
+sudo apt-get -y install unzip
 
 # Upgrade MySQL Version 5.7.x
 sudo apt-get -y install mysql-server
@@ -53,6 +54,12 @@ sudo mysql_upgrade -u root --force --upgrade-system-tables
 
 # Create User and Database
 mysql -u root -e "create user homestead;create database homestead;grant all on homestead.* to homestead@localhost identified by 'secret';"
+
+# Composer install 
+sudo rm -rf $HOME/.composer
+sudo rm -f /usr/bin/composer
+sudo curl -sS https://getcomposer.org/installer | php
+sudo cp composer.phar /usr/bin/composer
 
 # Remove File and Folder
 rm hello-world.php
