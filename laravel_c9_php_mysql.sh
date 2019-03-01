@@ -45,6 +45,7 @@ sudo apt-get -y install php7.2-soap
 sudo apt-get -y install php7.2-zip
 sudo apt-get -y install php7.2-sqlite
 sudo apt-get -y install php7.2-mysql
+sudo apt-get -y install unzip
 
 # Upgrade MySQL Version 5.7.x
 sudo apt-get -y install mysql-server
