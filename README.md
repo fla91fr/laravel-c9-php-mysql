@@ -28,3 +28,7 @@ wget -O c9_php_mysql.sh  https://raw.githubusercontent.com/fla91fr/laravel-insta
 chmod +x c9_php_mysql.sh 
 ./c9_php_mysql.sh 
 ```
+## To update AWS Cloud9 Instance (php 7.2 modules + composer installation) : 
+wget -O aws-composer-php7.2-modules.sh https://raw.githubusercontent.com/fla91fr/laravel-installer/master/aws-composer-php7.2-modules.sh
+chmod +x aws-composer-php7.2-modules.sh
+./aws-composer-php7.2-modules.sh
